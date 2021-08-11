@@ -20,6 +20,8 @@ services:
         restart: always
         environment:
             PGSTRING: postgres://postgres:example@db:5432/postgres
+        volumes:
+            - ./media/:/code/media/
         depends_on:
             - db
 

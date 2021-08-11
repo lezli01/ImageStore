@@ -15,7 +15,8 @@ router.post('/new/:name', async (req, res) => {
 router.post('/delete/:name', async (req, res) => {
     const name = req.params.name;
     try {
-        res.status(200).send(await deleteAlbum(name));
+        res.status(200).send();
+        // res.status(200).send(await deleteAlbum(name));
     } catch (err) {
         res.status(500).send(err.toString());
     }
@@ -64,7 +65,8 @@ router.post('/addPhotos/', async (req, res) => {
 
 router.post('/remove/:albumID/:photoID', async (req, res) => {
     try {
-        res.status(200).send(await removePhotoFromAlbum(req.params.albumID, req.params.photoID));
+        res.status(200).send();
+        // res.status(200).send(await removePhotoFromAlbum(req.params.albumID, req.params.photoID));
     } catch (err) {
         res.status(500).send(err.toString());
     }

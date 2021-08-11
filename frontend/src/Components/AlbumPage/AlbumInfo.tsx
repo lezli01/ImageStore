@@ -63,9 +63,9 @@ export default function AlbumInfo(props: { album: AlbumT; open: boolean; setOpen
                     ></TextField>
                 </DialogContent>
                 <DialogActions>
-                    <Button onClick={deleteThis} color="primary" autoFocus>
-                        Delete Album
-                    </Button>
+                    {/*<Button onClick={deleteThis} color="primary" autoFocus>*/}
+                    {/*    Delete Album*/}
+                    {/*</Button>*/}
                     <Button onClick={handleClose(false)} color="primary" autoFocus>
                         Cancel
                     </Button>

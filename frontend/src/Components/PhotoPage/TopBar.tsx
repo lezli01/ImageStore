@@ -69,13 +69,13 @@ export default function TopBar(props: any) {
                             </IconButton>
                         </Tooltip>
                     )}
-                    {props.numSelected() !== 0 && (
-                        <Tooltip title="Delete">
-                            <IconButton className="IconButton" color="primary" aria-label="delete" onClick={props.buttonFunctions.delete}>
-                                <Delete />
-                            </IconButton>
-                        </Tooltip>
-                    )}
+                    {/*{props.numSelected() !== 0 && (*/}
+                    {/*    <Tooltip title="Delete">*/}
+                    {/*        <IconButton className="IconButton" color="primary" aria-label="delete" onClick={props.buttonFunctions.delete}>*/}
+                    {/*            <Delete />*/}
+                    {/*        </IconButton>*/}
+                    {/*    </Tooltip>*/}
+                    {/*)}*/}
                 </div>
             </div>
             <LinearProgress

@@ -199,11 +199,11 @@ router.post('/edit/:id', async (req, res) => {
 
 router.post('/delete/:id', async (req, res) => {
     try {
-        const id = await removeMedia(req.params.id);
-
-        await fsPromises.unlink('media/' + id).catch(() => { })
-        await fsPromises.unlink('media/thumb_' + id).catch(() => { })
-        await fsPromises.unlink('media/prev_' + id).catch(() => { })
+        // const id = await removeMedia(req.params.id);
+        //
+        // await fsPromises.unlink('media/' + id).catch(() => { })
+        // await fsPromises.unlink('media/thumb_' + id).catch(() => { })
+        // await fsPromises.unlink('media/prev_' + id).catch(() => { })
 
         res.status(200).send();
     } catch (err) {

@@ -68,33 +68,33 @@ export default function TopRightBar(props: any) {
                 </IconButton>
             </Tooltip>
 
-            <Tooltip title="Remove from album">
-                <IconButton
-                    className="IconButton"
-                    color="primary"
-                    aria-label="remove"
-                    onClick={(e) => {
-                        e.stopPropagation();
-                        props.buttonFunctions.remove(props.id);
-                    }}
-                >
-                    <RemoveCircleOutline />
-                </IconButton>
-            </Tooltip>
+            {/*<Tooltip title="Remove from album">*/}
+            {/*    <IconButton*/}
+            {/*        className="IconButton"*/}
+            {/*        color="primary"*/}
+            {/*        aria-label="remove"*/}
+            {/*        onClick={(e) => {*/}
+            {/*            e.stopPropagation();*/}
+            {/*            props.buttonFunctions.remove(props.id);*/}
+            {/*        }}*/}
+            {/*    >*/}
+            {/*        <RemoveCircleOutline />*/}
+            {/*    </IconButton>*/}
+            {/*</Tooltip>*/}
 
-            <Tooltip title="Delete">
-                <IconButton
-                    className="IconButton"
-                    color="primary"
-                    aria-label="delete"
-                    onClick={(e) => {
-                        e.stopPropagation();
-                        props.buttonFunctions.delete(props.id);
-                    }}
-                >
-                    <Delete />
-                </IconButton>
-            </Tooltip>
+            {/*<Tooltip title="Delete">*/}
+            {/*    <IconButton*/}
+            {/*        className="IconButton"*/}
+            {/*        color="primary"*/}
+            {/*        aria-label="delete"*/}
+            {/*        onClick={(e) => {*/}
+            {/*            e.stopPropagation();*/}
+            {/*            props.buttonFunctions.delete(props.id);*/}
+            {/*        }}*/}
+            {/*    >*/}
+            {/*        <Delete />*/}
+            {/*    </IconButton>*/}
+            {/*</Tooltip>*/}
         </div>
     );
 }

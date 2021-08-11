@@ -43,7 +43,7 @@ const useStyles = makeStyles((theme: Theme) =>
             display: "flex",
             "justify-content": "center",
             "align-items": "center",
-            height: 64,
+            height: 100,
         },
         content: {
             flexGrow: 1,
@@ -67,7 +67,7 @@ export default function ResponsiveDrawer({ window }: any) {
     const drawer = (
         <div>
             <div className={classes.toolbar}>
-                <div className={classes.topleft}>ImageStore</div>
+                <div className={classes.topleft}>Fanni és Laci esküvői képek</div>
             </div>
             <Divider />
             <List>

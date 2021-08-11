@@ -86,20 +86,20 @@ export default function TopBar(props: any) {
                             </IconButton>
                         </Tooltip>
                     )}
-                    {props.numSelected() !== 0 && (
-                        <Tooltip title="Remove from album">
-                            <IconButton className="IconButton" color="primary" aria-label="remove" onClick={props.buttonFunctions.remove}>
-                                <RemoveCircleOutline />
-                            </IconButton>
-                        </Tooltip>
-                    )}
-                    {props.numSelected() !== 0 && (
-                        <Tooltip title="Delete">
-                            <IconButton className="IconButton" color="primary" aria-label="delete" onClick={props.buttonFunctions.delete}>
-                                <Delete />
-                            </IconButton>
-                        </Tooltip>
-                    )}
+                    {/*{props.numSelected() !== 0 && (*/}
+                    {/*    <Tooltip title="Remove from album">*/}
+                    {/*        <IconButton className="IconButton" color="primary" aria-label="remove" onClick={props.buttonFunctions.remove}>*/}
+                    {/*            <RemoveCircleOutline />*/}
+                    {/*        </IconButton>*/}
+                    {/*    </Tooltip>*/}
+                    {/*)}*/}
+                    {/*{props.numSelected() !== 0 && (*/}
+                    {/*    <Tooltip title="Delete">*/}
+                    {/*        <IconButton className="IconButton" color="primary" aria-label="delete" onClick={props.buttonFunctions.delete}>*/}
+                    {/*            <Delete />*/}
+                    {/*        </IconButton>*/}
+                    {/*    </Tooltip>*/}
+                    {/*)}*/}
                 </div>
             </div>
             <LinearProgress
